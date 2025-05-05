@@ -1,4 +1,2 @@
-import React from 'react';
-export declare const AwesomeButton: ({ label }: {
-    label: string;
-}) => React.JSX.Element;
+export { ValidationForm } from './ValidationForm';
+export { useRegisterField } from './useRegisterField';

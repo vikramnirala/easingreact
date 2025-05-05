@@ -1,1 +1,1 @@
-{"root":["../src/index.tsx"],"version":"5.8.3"}
+{"root":["../src/validationform.tsx","../src/index.tsx","../src/useregisterfield.ts"],"version":"5.8.3"}

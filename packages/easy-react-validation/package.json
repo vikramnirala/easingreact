@@ -1,7 +1,7 @@
 {
   "name": "@easingreact/easy-react-validation",
   "version": "1.0.0",
-  "description": "",
+  "description": "Simple React validation utility with form ref API and prop-based validation",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -9,11 +9,14 @@
     "lint": "eslint src --ext .ts,.tsx",
     "test": "jest"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "packageManager": "pnpm@10.10.0",
+  "peerDependencies": {
+    "react": "^17.0.0 || ^18.0.0"
+  },
+  "devDependencies": {},
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "keywords": ["react", "validation", "form", "easy", "react-validation", "form-validation", "react-native", "react-native-validation"],
+  "author": "Vikram Nirala",
+  "license": "MIT"
 }

@@ -1,10 +1,8 @@
 "use strict";
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.AwesomeButton = void 0;
-const react_1 = __importDefault(require("react"));
-const AwesomeButton = ({ label }) => (react_1.default.createElement("button", null, label));
-exports.AwesomeButton = AwesomeButton;
+exports.useRegisterField = exports.ValidationForm = void 0;
+var ValidationForm_1 = require("./ValidationForm");
+Object.defineProperty(exports, "ValidationForm", { enumerable: true, get: function () { return ValidationForm_1.ValidationForm; } });
+var useRegisterField_1 = require("./useRegisterField");
+Object.defineProperty(exports, "useRegisterField", { enumerable: true, get: function () { return useRegisterField_1.useRegisterField; } });
 //# sourceMappingURL=index.js.map
